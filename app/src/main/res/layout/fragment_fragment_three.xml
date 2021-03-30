@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:background="#ffffff"
+    android:id="@+id/framelayselectdate"
+    tools:context="com.example.laurel1.timetracker.FragmentThree">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="left|top">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:layout_marginBottom="60dp"
+            android:id="@+id/lsttaskdate3"
+            android:dividerHeight="15dp"
+            android:scrollbars=""
+            android:divider="@android:color/transparent" />
+      <!--  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work in Progress"
+            android:textColor="@android:color/holo_red_dark"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+-->
+        <!--<FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:layout_below="@+id/framelay"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/squareborder"
+            android:layout_gravity="center_horizontal|top">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgaddyesterday"
+                android:background="@drawable/ic_plus"
+                android:layout_gravity="center" />
+        </FrameLayout>-->
+    </LinearLayout>
+  <!--  <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView"
+        android:layout_gravity="center_horizontal|top" />-->
+     <include layout="@layout/footer3"
+       android:id="@+id/include" />
+</FrameLayout>

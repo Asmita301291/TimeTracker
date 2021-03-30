@@ -1,0 +1,46 @@
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/framelayyesterday"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        tools:context="com.example.laurel1.timetracker.FragmentTwo">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="left|top">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75"
+                android:layout_marginBottom="60dp"
+                android:id="@+id/lsttask"
+                android:dividerHeight="15dp"
+                android:scrollbars=""
+                android:divider="@android:color/transparent" />
+           <!-- <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25"
+                android:layout_below="@+id/framelay"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/squareborder"
+                android:layout_gravity="center_horizontal|top">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgaddyesterday"
+                    android:background="@drawable/ic_plus"
+                    android:layout_gravity="center" />
+            </FrameLayout>-->
+        </LinearLayout>
+
+        <include layout="@layout/footer2"
+            android:id="@+id/include" />
+
+    </FrameLayout>
+

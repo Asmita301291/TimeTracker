@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/framelaytoday"
+    tools:context="com.example.laurel1.timetracker.FragmentOne"
+    >
+    <!--  Include Addbutton -->
+    <include layout="@layout/addbutton"
+        android:id="@+id/include" />
+    <!-- <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="108dp"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"
+         android:layout_marginTop="22dp"
+         android:background="@drawable/squareborder"
+      android:layout_gravity="center_horizontal|top">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/imgadd"
+          android:background="@drawable/ic_plus"
+          android:layout_gravity="center" />
+  </FrameLayout>-->
+     <include layout="@layout/footer"
+           android:id="@+id/include" />
+</FrameLayout>
